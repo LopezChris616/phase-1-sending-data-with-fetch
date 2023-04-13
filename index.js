@@ -25,27 +25,3 @@ function submitData(userName, userEmail) {
         htmlBody.appendChild(idParagraph);
     })
 }
-
-
-
-
-// const formData = {
-//     dogName: "Krypto",
-//     dogBreed: "Golden Retriever"
-// }
-
-// const configurationObject = {
-//     method: "POST",
-//     headers: {
-//         "Content-Type": "application/json",
-//         "Accept": "application/json"
-//     },
-//     body: JSON.stringify(formData)
-// };
-
-// fetch("http://localhost:3000/dogs", configurationObject)
-//     .then(resp => resp.json())
-//     .then(obj => console.log(object))
-//     .catch(err => {
-//         console.log("ERROR!!!!!");
-//     })
